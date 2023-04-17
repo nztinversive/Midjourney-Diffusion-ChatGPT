@@ -1,0 +1,32 @@
+openapi: 3.0.1
+info:
+  title: Midjourney Diffusion Plugin
+  description: A plugin that generates images based on given prompts using the Midjourney Diffusion model.
+  version: 'v1'
+servers:
+  - url: https://midjourneydiffusionplugin.nztinversive.repl.co
+paths:
+  /generate-image:
+    post:
+      operationId: generateImage
+      summary: Generate an image based on the given prompt
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                prompt:
+                  type: string
+                  description: The prompt for the image generation
+      responses:
+        "200":
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  image_url:
+                    type: string
+                    description: The URL of the generated image

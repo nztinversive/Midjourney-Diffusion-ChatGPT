@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Midjourney Diffusion Plugin",
+    "name_for_model": "midjourney_diffusion",
+    "description_for_human": "Plugin for generating images based on given prompts using the Midjourney Diffusion model.",
+    "description_for_model": "Plugin for generating images based on given prompts using the Midjourney Diffusion model.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "https://midjourneydiffusionplugin.nztinversive.repl.co/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "https://midjourneydiffusionplugin.nztinversive.repl.co/logo.png",
+    "contact_email": "support@nztinversive.com",
+    "legal_info_url": "https://www.nztinversive.com/legal"
+}
