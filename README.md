@@ -1,4 +1,4 @@
-# Midjourney Diffusion Plugin
+# Midjourney Diffusion ChatGPT Plugin
 
 ![Midjourney Diffusion Plugin Logo](https://midjourneydiffusionplugin.nztinversive.repl.co/logo.png)
 
